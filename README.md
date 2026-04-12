@@ -1,6 +1,6 @@
 # fusion
 
-A kernel-aassisted lightweight block device for SPDK
+A kernel-assisted lightweight block device for SPDK
 
 `fusion` is a high-performance hybrid block device framework that bridges
 SPDK user-space I/O with the Linux kernel block layer.
@@ -158,7 +158,7 @@ See spdk/README.md
 
 Not widely tested yet. `fio` tests at QEMU ram disks
 (virtio-blk, virtio-scsi-pci) show performance is at
-partity or slightly above (1...2 %) `bdev_uring`.
+parity with `bdev_uring` or slightly above (1...2 %).
 
 ---
 
