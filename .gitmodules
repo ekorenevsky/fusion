@@ -1,0 +1,6 @@
+[submodule "kernel"]
+	path = kernel
+	url = git@github.com:ekorenevsky/fusion-blk
+[submodule "spdk"]
+	path = spdk
+	url = git@github.com:ekorenevsky/fusion-spdk
